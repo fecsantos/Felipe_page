@@ -1,0 +1,77 @@
+.carousel {
+  /*display: grid;*/
+  /*height: 100%;*/
+  place-items: center;
+  text-align: center;
+  background: white;
+}
+
+.slider {
+  max-width: 1150px;
+
+  overflow: hidden;
+  display: flex;
+  cursor: pointer;
+}
+
+.slider .card-carousel {
+  background: #23232e;
+  color: white;
+  flex: 1;
+  margin: 0 10px;
+  /*min-height: 490px;*/
+}
+
+.slider .card-carousel .img {
+  height: 250px;
+  width: 100%;
+}
+
+.slider .card-carousel .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider .card-carousel .content {
+  padding: 10px 20px;
+}
+
+.card-carousel .content .title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card-carousel .content .sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.card-carousel .content p {
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.card-carousel .content .btn-white {
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-carousel .content .btn-white button {
+  background-color: white;
+  color: #23232e;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-replace: 0.2s;
+}
+
+.card-carousel .content .btn-white button:hover {
+  transform: scale(0.9);
+}
