@@ -1,11 +1,11 @@
 @import url("components/hero_image.css");
 @import url("components/navbar.css");
 @import url("components/footer.css");
+@import url("components/carousel.css");
 
-/*body, html {
-  height: 100%;
-  width: 100%;
-}*/
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
