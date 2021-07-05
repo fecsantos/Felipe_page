@@ -34,3 +34,21 @@ header a:hover {
   background: #23232e;
   color: #fff;
 }
+
+@media (max-width: 600px){
+  .subtitle {
+    font-size: 30px;
+  }
+   p, li{
+    font-size: 18px;
+  }
+
+  input,
+  input::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+
+  textarea::placeholder{
+    font-size: 18px;
+  }
+}
