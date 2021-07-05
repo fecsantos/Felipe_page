@@ -3,6 +3,7 @@
 @import url("components/footer.css");
 @import url("components/carousel.css");
 @import url("components/contact-form.css");
+@import url("components/experience-list.css");
 
 html {
   scroll-behavior: smooth;

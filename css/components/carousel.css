@@ -75,3 +75,24 @@
 .card-carousel .content .btn-white button:hover {
   transform: scale(0.9);
 }
+
+.owl-dots {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid #23232e!important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot:active {
+  background: #23232e!important;;
+}
