@@ -1,0 +1,12 @@
+.experience-list {
+  list-style: none;
+}
+
+.experience-list li {
+  padding: 10px;
+}
+
+.experience-list li:hover {
+  transform: scale(1.2);
+}
+
