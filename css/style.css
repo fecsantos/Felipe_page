@@ -37,7 +37,7 @@ header a:hover {
 
 @media (max-width: 600px){
   .subtitle {
-    font-size: 30px;
+    font-size: 32px;
   }
    p, li{
     font-size: 18px;
